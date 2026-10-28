@@ -1,0 +1,33 @@
+#gameView {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  #stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3px;
+    flex: 1;
+  }
+
+  #arena {
+    width: 100%;
+    height: auto;
+    flex: 8;
+  }
+
+  #food {
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+
+  .snake {
+    background-color: green;
+    padding:3px;
+    width: 10px;
+    height: 10px;
+  }
+}
