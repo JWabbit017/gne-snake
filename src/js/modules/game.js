@@ -4,7 +4,6 @@ import Snake from "./snake.js";
 export default class Game {
   score;
   preloadView = "gameView";
-  snake = Snake;
 
   constructor() {
     this.score = new GNE.DHTML.DHTMLReactiveState(0);

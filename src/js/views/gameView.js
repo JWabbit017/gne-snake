@@ -22,7 +22,7 @@ class GameView extends GNE.View {
 
       if (!block) continue;
 
-      block.style.transform = `translate(${Snake.previousPositions[Snake.previousPositions.length - i][0]}px, ${Snake.previousPositions[Snake.previousPositions.length - i][1] - (16 * i)}px)`;
+      block.style.transform = `translate(${Snake.previousPositions[Snake.previousPositions.length - i][0]}px, ${Snake.previousPositions[Snake.previousPositions.length - i][1] - (16 * (i - 1))}px)`;
     }
   }
 
